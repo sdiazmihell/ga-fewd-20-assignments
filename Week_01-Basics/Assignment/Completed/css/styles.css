@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family: "WalsheimRegular";
+  src: url("../fonts/GT-Walsheim-Pro-Trial-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "WalsheimMedium";
+  font-weight: bold;
+  src: url("../fonts/GT-Walsheim-Pro-Trial-Medium.otf") format("opentype");
+}
+
+h5 {
+	font-family: "WalsheimRegular";
+  font-weight: normal;
+  text-align: left;
+  padding-left: 50px;
+}
+
+div.intro p span#person {
+  font-family: "WalsheimRegular";
+}
+
+body {
+	font-family: "Big Caslon";
+	font-size: 3em;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    font-family: Helvetica;
+    font-weight: medium;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+h1 {
+    text-align: center;
+}
+
+#description {
+	text-align: center;
+	font-family: Helvetica;
+	color: #000033;
+}
