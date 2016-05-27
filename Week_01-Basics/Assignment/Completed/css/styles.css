@@ -10,15 +10,76 @@
   src: url("../fonts/GT-Walsheim-Pro-Trial-Medium.otf") format("opentype");
 }
 
+body {
+  background-color: f6f6f6;
+}
+
+.side-nav:hover {
+    background: #fff;
+}
+
+.right-side {
+    right: 0%;
+}
+.side-nav {
+    width: 5%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    display: block;
+    background: none;
+    -webkit-transition: background 0.18s ease;
+    -moz-transition: background 0.18s ease;
+    -o-transition: background 0.18s ease;
+    -ms-transition: background 0.18s ease;
+    transition: background 0.18s ease;
+    z-index: 400;
+}
+
 h5 {
 	font-family: "WalsheimRegular";
   font-weight: normal;
-  text-align: left;
-  padding-left: 50px;
+  margin: auto;
+  width: 20%;  
+}
+
+p {
+  letter-spacing: 2px;
+  font-color: #333333;
+  margin: auto;
+  width: 90%;  
 }
 
 div.intro p span#person {
   font-family: "WalsheimRegular";
+}
+.email {
+  width: 50px;
+  display: inline;
+  margin: 0;
+}
+#ceees {
+  display: inline;
+  margin: 0;
+}
+
+div.projects p span#title {
+  font-family: "WalsheimRegular";
+}
+
+.instagram {
+  display: inline;
+ float: bottom;
+ padding-left: 100px;
+ padding-top: 500px;
+ align: center;
+}
+
+img.drawings {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
 }
 
 body {
