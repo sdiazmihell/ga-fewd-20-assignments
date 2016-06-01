@@ -11,7 +11,13 @@
 }
 
 body {
-  background-color: f6f6f6;
+  background-color: #ffffff;
+}
+
+im
+
+img#ceeeslogo {
+  width: 200px;
 }
 
 .side-nav:hover {
@@ -36,11 +42,13 @@ body {
     z-index: 400;
 }
 
-h5 {
-	font-family: "WalsheimRegular";
+h4 {
+	font-family: "Big Caslon";
   font-weight: normal;
   margin: auto;
-  width: 20%;  
+  width: 20%;
+  padding-bottom: 50px;
+  padding-top: 50px;  
 }
 
 p {
@@ -52,15 +60,6 @@ p {
 
 div.intro p span#person {
   font-family: "WalsheimRegular";
-}
-.email {
-  width: 50px;
-  display: inline;
-  margin: 0;
-}
-#ceees {
-  display: inline;
-  margin: 0;
 }
 
 div.projects p span#title {
@@ -82,6 +81,14 @@ img.drawings {
   padding: 50px;
 }
 
+img#linkedicon {
+  width: 20px;
+}
+
+img#igicon {
+  width: 20px;s
+}
+
 body {
 	font-family: "Big Caslon";
 	font-size: 3em;
@@ -100,6 +107,7 @@ a:visited {
 a:hover {
     font-family: Helvetica;
     font-weight: medium;
+    text-shadow: 0 0 3px grey;
 }
 
 /* selected link */
