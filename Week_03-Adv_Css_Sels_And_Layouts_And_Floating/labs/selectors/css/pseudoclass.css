@@ -1,4 +1,34 @@
+a:hover {
+	color: black;
+	background: yellow;
+}
 
+a:visited {
+	color:black;
+}
+
+.sr-only {
+	text-align: inherit;
+}
+
+a#link {
+	text-decoration:none;
+	font-size: 50pt;
+	font-family: helvetica;
+	font-weight: bold;
+	width: 200px;
+	text-align: center;
+}
+
+article.myarticle:first-child {
+	font-family: helvetica;
+	font-size: 40pt;
+}
+
+article#article2 {
+	font-family: helvetica;
+	font-size: 30pt;
+}
 /** CSS RULES GO IN HERE */
 
 

@@ -1,3 +1,29 @@
+section > div > p > a {
+	background-color: #00FF00;
+	font-family: Helvetica;
+	font-size: 100pt;
+	text-decoration: none;
+}
+
+section > div a {
+	background-color: #FF0000;
+	font-family: Helvetica;
+	font-size: 100pt;
+	text-decoration: none;
+}
+
+section p > a.mylink {
+	background-color: #FF00FF
+	font-family: Helvetica;
+	font-size: 100pt;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bolder;
+	background-color: grey;
+	color: black;
+}
 
 /** CSS RULES GO IN HERE */
 

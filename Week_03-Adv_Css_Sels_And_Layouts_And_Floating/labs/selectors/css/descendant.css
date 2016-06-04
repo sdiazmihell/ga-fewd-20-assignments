@@ -1,4 +1,24 @@
+section p#para1 a {
+	color: #cc0e0e;
+	font-family: helvetica;
+	font-size: 50pt;
+	text-decoration: none;
+	width: 200px;
+}
 
+section p#para2 a {
+	color: #0000FF;
+	font-family: helvetica;
+	font-size: 40pt;
+	text-decoration: none;
+	width: 200px;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #3F3939;
+}
 /** CSS RULES GO IN HERE */
 
 
