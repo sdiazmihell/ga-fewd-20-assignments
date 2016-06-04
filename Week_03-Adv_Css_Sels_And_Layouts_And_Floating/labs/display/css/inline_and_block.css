@@ -2,13 +2,17 @@
 
 .blockelm {
   background-color: #ED3689;
-  border: 5px solid #000000;
+  border: 2px dashed #000000;
   margin-bottom: 20px;
+  margin-top: 20px;
+  width: 200px;
 }
 
 .inlineelm {
-  color: #37E637;
+  color: blue;
   font-weight: bold;
+  display: block;
+  width: 200px;
 }
 
 
