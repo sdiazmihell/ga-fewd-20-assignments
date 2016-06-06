@@ -1,0 +1,85 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    width: 80%;
+    max-width: 1024px;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+header, article, footer {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 50pt;
+	text-align: center;
+	margin: 15px;
+}
+
+div .pic {
+	width: 300px;
+	margin-left: 15px;
+}
+
+div.description {
+    width: 50%;
+    min-width: 390px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+div.description p {
+    font-size: 12pt;
+    font-family: helvetica;
+}
+
+div.description p:first-child {
+    margin-top: 0px;
+}
+
+article#listing1 div.description {
+	text-align: left;
+}
+
+article#listing1 div.pic,
+article#listing1 div.description {
+	float: left;
+}
+
+article#listing2 div.description {
+    text-align: right;
+}
+
+article#listing2 div.pic,
+article#listing2 div.description {
+  float: right;
+}
+
+i {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix {
+    clear: both;
+}
