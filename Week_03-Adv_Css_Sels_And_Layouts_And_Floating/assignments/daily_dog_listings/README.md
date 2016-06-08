@@ -73,4 +73,3 @@ need to link to anywhere or perform an action, but they can if you wish.  Includ
 * Place your completed code in the `completed` directory of this assignment.
 * Always calidate your HTML with the html validator.
 
-
