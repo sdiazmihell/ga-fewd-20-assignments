@@ -25,12 +25,12 @@ body {
 
 #box1 {
   background-color: #FF0000;
+  margin-top: 20px;
+  margin: 20px;
 }
 
 #box2 {
   background-color: #0000FF;
-  position: relative;
-  top: 40px;
-  left: 40px;
+  margin: 20px;
 }
 

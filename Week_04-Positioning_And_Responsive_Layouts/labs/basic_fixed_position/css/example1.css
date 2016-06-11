@@ -14,21 +14,26 @@ html, body {
 }
 
 body {
-  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: 0px;
+  font-family: helvetica;
+  font-weight: lighter;
   font-size: 2rem;
+
 }
 
 #box {
-  background-color: RGBA(255, 0, 0, .8);
+  background-color: RGBA(255, 0, 0, .6);
   color: #FFFFFF;
+  font-family: helvetica;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   border-radius: 100%;
-  width: 300px;
-  height: 300px;
-  line-height: 300px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
   position: fixed;
   top: 100px;
   right: 100px;
