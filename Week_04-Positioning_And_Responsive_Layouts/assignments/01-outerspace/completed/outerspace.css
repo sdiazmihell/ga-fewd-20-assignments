@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #111111;
+}
+
+#outerspace {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 550px;
+  height: 550px;
+  transform: translate(-50%, -50%);
+}
+
+#outerspace > #axis {
+  background-color: #FF6161;
+  position: absolute;
+  top: -300px;
+  left: 50%;
+  width: 2px;
+  height: 200%;
+  transform:rotate(20deg);
+  z-index: -1;
+  border: 2px dotted;
+}  
+
+#outerspace > #sun {
+  background-color: #FF6161;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 100%;
+  background: linear-gradient(100deg, #FF6161, black);
+}
+
+#outerspace > #planet1 {
+  background-color: #40FF70;
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  width: 50%;
+  height: 50%;
+  z-index: 2;
+  border-radius: 100%;
+  background: linear-gradient(100deg, #40FF70, black);
+}
+
+#outerspace > #planet2 {
+  background-color: #5BD3FF;
+  position: absolute;
+  top: 40px;
+  left: 475px;
+  width: 30%;
+  height: 30%;
+  z-index: 2;
+  border-radius: 100%;
+  background: linear-gradient(100deg, #5BD3FF , black);
+}
+
+#outerspace > #planet3 {
+  background-color: #FF4B4B;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  width: 20%;
+  height: 20%;
+  z-index: 2;
+  border-radius: 100%;
+  background: linear-gradient(100deg, #FF4B4B, black);
+}
+
+#outerspace > #planet4 {
+  background-color: #FFF82A;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  width: 15%;
+  height: 15%;
+  z-index: 2;
+  border-radius: 100%;
+  background: linear-gradient(100deg, #FFF82A, black);
+}
+
+#outerspace > #planet5 {
+  background-color: #A54BFF;
+  position: absolute;
+  top: 320px;
+  left: -20px;
+  width: 12%;
+  height: 12%;
+  z-index: 2;
+  border-radius: 100%;
+  background: linear-gradient(100deg, #A54BFF, black);
+}
+
+#outerspace > #planet6 {
+  background-color: #FF0000;
+  position: absolute;
+  top: 240px;
+  left: 60px;
+  width: 10%;
+  height: 10%;
+  z-index: 2;
+  border-radius: 100%;
+  background: linear-gradient(100deg, #FF0000, black);
+}
+
+#outerspace > #planet7 {
+  background-color: #33ffff;
+  position: absolute;
+  top: 200px;
+  left: -40px;
+  width: 8%;
+  height: 8%;
+  z-index: 2;
+  border-radius: 100%;
+  float: left;
+  background: linear-gradient(100deg, #33ffff, black);
+}
