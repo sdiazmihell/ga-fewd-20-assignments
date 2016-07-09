@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Forms</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+  	<form>
+        <fieldset>  
+	  	  <label for="username">Username</label>
+	      <input
+	        id="username"
+	        name="username"
+	        minlength="3"
+	        maxlength="6" 
+	        type="text" 
+	        placeholder="Username" />
+	    </fieldset>
+	    
+	    <fieldset>    
+	      <label for="password">Password</label>
+	      <input
+	        id="password"
+	        name="password" 
+	        type="password" 
+	        value="123456" 
+	        placeholder="Password" required />
+        </fieldset>
+
+	    <fieldset>  
+	      <label for="bio">Bio</label>
+	      <textarea placeholder="Enter a Bio" id="bio" name="bio"></textarea>
+
+	      <label for="animal">Animal</label>
+	      <select id="animal" name="animal" multiple>
+	        <optgroup label="Dogs">
+	      	  <option value="pitbull">Pit bull</option>
+	      	  <option value="yorkshire_terrier">Yorkshire Terrier</option>
+	      	</optgroup>
+	      	<optgroup label="Birds">  
+	      	  <option value="parrot" selected>Parrot</option>
+	      	  <option value="pidgeon">Pidgeon</option>
+	      	</optgroup>  
+	      </select>
+	    </fieldset>
+	      
+        <fieldset>
+	      <label for="newsletter">Newsletter</label>
+	      <input 
+	       type="checkbox" 
+	       id="newsletter" 
+	       name="newsletter" checked />
+	    </fieldset>
+
+	    <fieldset>  
+	     <label for="food_pizza">Pizza</label> 
+	     <input 
+	       type="radio"
+	       id="food_pizza" 
+	       name="food"
+	       value="pizza" />
+
+	     <label for="food_burritos">Burritos</label>  
+	     <input 
+	       type="radio"
+	       id="food_burritos" 
+	       name="food"
+	       value="burritos" /> 
+
+	     <label for="food_tofu">Tofu</label>  
+	     <input 
+	       type="radio"
+	       id="food_tofu" 
+	       name="food"
+	       value="tofu" />
+	    </fieldset>   
+
+	    <fieldset>
+	     <label for="age">Age</label>
+	     <input 
+	       type="number" 
+	       min="5" 
+	       max="30" 
+	       placeholder="Enter your age"
+	       id="age"
+	       name="age" />
+	    </fieldset>
+	       
+	    <fieldset>
+	      <label for="birthday_box">Birthdate</label>
+	       <div id="birthday_box">
+	       <span>Birthday</span>
+	       <input id="birthday" name="birthday" type="datetime-local" />
+	     </div>
+	    </fieldset> 
+
+	    <fieldset>
+	     <input type="submit" value="Create Account" />  
+	    </fieldset>
+	    
+    </form>
+  </body>
+</html>
