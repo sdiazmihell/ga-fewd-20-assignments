@@ -1,5 +1,6 @@
 html {
-  box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
 
 *, *:before, *:after {
@@ -12,13 +13,11 @@ html {
 
 body {
 	background-color: none;
-	padding: 0 24px 96px 24px;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 3.5rem;
 	line-height: 60px;
 	-webkit-font-smoothing: antialiased;
-	position: fixed;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 .logo {
@@ -31,10 +30,10 @@ body {
 button {
 	display: block;
 	position: absolute;
-	left: 235px;
-	top: 32px;
+	left: 240px;
+	top: 41px;
 	font-size: 2.8rem;
-	color: blue;
+	color: black;
     line-height: inherit;
     outline: none;
     border: none;
@@ -44,29 +43,40 @@ button {
 }
 
 button:hover {
-	color: red;
+	color: #f95615;
 } 
 
 p {
 	width: 675px;
 	margin: 0px;
-	padding: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 20px;
     font-size: 3.5rem;
 	font-family: 'Work Sans', sans-serif;
-	font-weight: bolder;
 	letter-spacing: -0.2rem;
-	color: black;
+	color: #f95615;
 	display: none;
+}
+
+h2 {
+	padding-left: 20px;
+	letter-spacing: 0.2rem;
+}
+
+h3 {
+	display: block;
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
 }
 
 nav {
 	display: block;
 	position: fixed;
-	width: 500px;
-	top: 20px;
-	right: -100px;
+	width: 250px;
+	right: 20px;
 	font-size: 2rem;
-	font-weight: bolder;
 	line-height: 2rem;
 }
 
@@ -74,6 +84,17 @@ a {
 	text-decoration: none;
 	color: black;
 	cursor: pointer;
+}
+
+/*img.musicgif {
+	display: block;
+    margin: auto;
+}*/	
+
+.musictext {
+    display: block;
+    margin: auto;
+    width: 700px;
 }
 
 

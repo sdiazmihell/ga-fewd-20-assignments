@@ -7,10 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-section {
-  padding-top: 50px;
-}
-
 nav {
   float: right;
   width: 100%;
